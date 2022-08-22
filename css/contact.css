@@ -1,0 +1,50 @@
+
+/*#df2925*/
+
+a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+
+#logo-name{
+    color: #df2925;
+}
+
+
+body nav div #logo1{
+    height: 30px;
+    padding: 3px ;
+    margin-bottom: 4px;
+}
+
+nav div div ul .login-button{
+    color: white;
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9999px;
+    border: 1.5px solid #df2925;
+    background-color: #df2925;
+}
+
+.manu-item : hover{
+    content: '';
+    display: block;
+    position: fixed;
+    width: 148px;
+    height: 4px;
+    background-color: black;
+
+}

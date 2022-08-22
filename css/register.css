@@ -1,0 +1,79 @@
+
+
+
+/*#df2925*/
+
+
+a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+
+#logo-name{
+    color: #df2925;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/Polygon1.png');
+    background-repeat: no-repeat;
+    background-position: 510px -40px;
+    background-size: 70%;
+}
+
+body nav div #logo1{
+    height: 30px;
+    padding: 3px ;
+    margin-bottom: 4px;
+}
+
+nav div div ul .login-button{
+    color: white;
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9999px;
+    border: 1.5px solid #df2925;
+    background-color: #df2925;
+}
+
+.manu-item : hover{
+    content: '';
+    display: block;
+    position: fixed;
+    width: 148px;
+    height: 4px;
+    background-color: black;
+
+}
+
+   .my-gallery {
+      width: 100%;
+      float: left;
+    } 
+     .my-gallery img {
+      width: 100%;
+      height: auto;
+    } 
+      .my-gallery figure {
+      display:;
+      float: left;
+      margin: 0 5px 5px 0;
+      width: 150px;
+    } 
+    .my-gallery figcaption {
+      display: none;
+    }

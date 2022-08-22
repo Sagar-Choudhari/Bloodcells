@@ -1,0 +1,370 @@
+/* @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+ */
+
+/*#df2925*/
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+
+.navigation-icon{
+    color: #df2925!important;
+    text-emphasis-color: red;
+}
+
+
+/* ++++++++++++ save life +++++++++++ */
+
+#logo-name{
+    color: #df2925;
+}
+
+
+body nav div #logo1{
+    height: 30px;
+    padding: 3px ;
+    margin-bottom: 4px;
+}
+
+
+nav div div ul .login-button{
+    color: #df2925;
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9999px;
+     border: 1.5px solid #df2925; 
+   /* background-color: #df2925;*/
+}
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    position: relative;
+}
+
+
+
+
+
+/* picture photos carouser */
+
+
+.myImgg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImgg:hover {opacity: 0.75;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  overflow-y: hidden;
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* dynamic fit  */
+
+
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.cl { clear: both; }
+
+ section {
+  text-align: center;
+  line-height: 60px;
+}
+
+#main {
+  -webkit-column-width: 242px;
+  -moz-column-width: 242px;
+  o-column-width: 242px;
+  -ms-column-width: 242px;
+  column-width: 242px;
+}
+
+.box { padding: 8px 0 0 10px; }
+
+.pic {
+  width: 256px; 
+  
+}
+ 
+.pic .imgdisplay{
+  width: 256px;
+  height: auto;
+  display: inline-block;
+}
+
+
+
+
+/* download on hover */
+
+
+/* .containerr {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+
+.containerr:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+ */
+
+
+
+/* download and view on hover */
+
+
+/* figure.snip0013 {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+figure.snip0013 img {
+  max-width: 100%;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip0013 > div {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  position: absolute;
+}
+figure.snip0013 > div a {
+  color: #ffffff;
+}
+figure.snip0013 > div a i {
+  font-size: 50px;
+  opacity: 0;
+  top: 50%;
+  position: relative;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  display: inline-block;
+}
+figure.snip0013 > div a i.left-icon {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+figure.snip0013 > div a i.right-icon {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+figure.snip0013 > div::before {
+  position: absolute;
+  top: 30px;
+  right: 50%;
+  bottom: 30px;
+  left: 50%;
+  border-left: 1px solid rgba(255, 255, 255, 0.8);
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+  content: '';
+  opacity: 0;
+  background-color: #ffffff;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip0013:hover img {
+  opacity: 0.35;
+}
+figure.snip0013:hover > div i {
+  opacity: 0.9;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip0013:hover > div i.left-icon {
+  -webkit-transform: translate3d(-25%, -50%, 0);
+  transform: translate3d(-25%, -50%, 0);
+}
+figure.snip0013:hover > div i.right-icon {
+  -webkit-transform: translate3d(25%, -50%, 0);
+  transform: translate3d(25%, -50%, 0);
+}
+figure.snip0013:hover > div::before {
+  background: rgba(255, 255, 255, 0);
+  left: 30px;
+  right: 30px;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+} */
+
+
+/* Demo purposes only */
+/* html {
+  height: 100%;
+}
+body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+} */
+
+
+/*   .my-gallery {
+      width: 100%;
+      float: left;
+    } 
+     .my-gallery img {
+      width: 100%;
+      height: auto;
+    } 
+      .my-gallery figure {
+      display:;
+      float: left;
+      margin: 0 5px 5px 0;
+      width: 150px;
+    } 
+
+*/
+    .my-gallery figcaption {
+      display: none;
+    }

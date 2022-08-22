@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Hind-Medium;
+    src: url('../Hind/Hind-Regular.ttf');
+}
+
+/*#df2925*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hind-Medium;
+}
+
+.icons-person{
+    width: 19px;
+    height: 100%;
+}
+.icons{
+    width: 15px;
+    height: 100%;
+}

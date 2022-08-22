@@ -1,0 +1,96 @@
+
+
+/*#df2925*/
+
+
+a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+
+
+
+/* ++++++++++++ save life +++++++++++ */
+
+#logo-name{
+    color: #df2925;
+}
+
+
+body nav div #logo1{
+    height: 30px;
+    padding: 3px ;
+    margin-bottom: 4px;
+}
+
+
+nav div div ul .login-button{
+    color: white;
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9999px;
+    border: 1.5px solid #df2925;
+    background-color: #df2925;
+}
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    position: relative;
+}
+
+
+
+
+.box{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+	background: rgba(255, 255, 255, .3);
+	overflow: hidden;
+	border: 1px solid #fff; 
+	border-radius: 10px;
+}
+
+
+.box::before{
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -20px;
+	bottom: -20px;
+	background: url('../assets/donation.jpg');
+	background-size: 100%;
+	opacity: 40%;
+	filter: blur(2px);
+}
+
+.box .post-btn{
+	position: relative;
+	box-shadow: 0 0px 20px rgba(0, 0, 0, .1);
+}
+
+/* #88d5fe */
+.left-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #88d5fe;
+    }

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Hind-Medium;
+    src: url('../Hind/Hind-Medium.ttf');
+}
+
+/*#df2925*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hind-Medium;
+}

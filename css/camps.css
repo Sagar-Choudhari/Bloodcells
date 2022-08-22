@@ -1,0 +1,155 @@
+
+/*#df2925*/
+
+a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+
+#logo-name{
+    color: #df2925;
+}
+
+
+body nav div #logo1{
+    height: 30px;
+    padding: 3px ;
+    margin-bottom: 4px;
+}
+
+nav div div ul .login-button{
+    color: white;
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9999px;
+    border: 1.5px solid #df2925;
+    background-color: #df2925;
+}
+
+.manu-item : hover{
+    content: '';
+    display: block;
+    position: fixed;
+    width: 148px;
+    height: 4px;
+    background-color: black;
+
+}
+
+
+
+  
+/* picture photos carouser */
+
+
+.myImgg {
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImgg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+   .my-gallery {
+      width: 100%;
+      float: left;
+    } 
+     .my-gallery img {
+      width: 100%;
+      height: auto;
+    } 
+      .my-gallery figure {
+      display:;
+      float: left;
+      margin: 0 5px 5px 0;
+      width: 275px;
+    } 
+    .my-gallery figcaption {
+      display: none;
+    }
