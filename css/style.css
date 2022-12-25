@@ -46,9 +46,6 @@ body nav div #logo1{
     margin-bottom: 4px;
 }
 
-div #hero{
-}
-
 h1{
     margin: 0px 0px 0px 0px;
 }
@@ -115,8 +112,6 @@ div section div .save{
     -webkit-transform: translate(-14%,0%);
 }
 
-
-
  .save:after{
     content: '';
     display: block;
@@ -124,23 +119,10 @@ div section div .save{
     width: 148px;
     height: 4px;
     background-color: #df2925;
-    transform: translate(352px,-19px);
-    -ms-transform: translate(352px,-19px);
-    -webkit-transform: translate(352px,-19px);
+    transform: translate(338px,-19px);
+    -ms-transform: translate(338px,-19px);
+    -webkit-transform: translate(338px,-19px);
 } 
-
-
-
-/* .save:after{
-    content: '';
-    display: block;
-    position: fixed;
-    left: 348px;
-    bottom: 15px;
-    width: 148px;
-    height: 4px;
-    background-color: #df2925;
-} */
 
 div section div .hero{
     color: #df2925;
@@ -158,9 +140,9 @@ div section div .hero{
     width: 115px;
     height: 3px;
     background-color: #df2925;
-    transform: translate(16px,-15px);
-    -ms-transform: translate(16px,-15px);
-    -webkit-transform: translate(16px,-15px);
+    transform: translate(6px,-15px);
+    -ms-transform: translate(6px,-15px);
+    -webkit-transform: translate(6px,-15px);
 }
 
 div section div .save-hero{

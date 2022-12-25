@@ -98,12 +98,15 @@ function pop() {
                  </div>
                  <div class="div">
                     <h5 class="hh55">Captcha</h5>
-                     <input type="text" class="input" name="vercode" maxlength="5" autocomplete="off"/><img src="dataconn/captcha.php" class="rounded bg-danger shadow-sm ml-5 mt-2">
+                     <input type="text" class="input" name="vercode" maxlength="5" autocomplete="off" required/>
+                     <img src="dataconn/captcha.php" class="rounded bg-danger shadow-sm ml-5 mt-2">
                  </div>
               </div>
               <button type="submit" class="loginbtn shadow-sm" name="login">Login</button>
 
-              <button class="homebtn shadow-sm "><a href="index.php" title="Go to homepage. (Bloodecells)" class="text-decoration-none text-white ancher">Homepage</a></button>
+              <button class="homebtn shadow-sm ">
+                <a href="index.php" title="Go to homepage. (Bloodecells)" class="text-decoration-none text-white ancher">Homepage</a>
+              </button>
             </form>
             
         </div>

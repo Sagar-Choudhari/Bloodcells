@@ -4,13 +4,12 @@ session_start();
 error_reporting(0);
 if(isset($_POST['login']))
 {
- if ($_POST["vercode"] == 0)  {
+ if ($_POST["vercode"] != $_SESSION["vercode"] OR $_SESSION["vercode"]=='')  {
 
 	$_SESSION['wrongcode'] = "wrong code";
 
 	header('location: ../login.php');
-    } 
- 
+    }
 
 else{
 
