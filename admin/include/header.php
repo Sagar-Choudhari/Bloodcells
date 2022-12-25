@@ -1,6 +1,5 @@
-
 <?php
-     
+
 //      if(!$sock = @fsockopen('www.google.com', 80))
 // {
 //     session_destroy();
@@ -13,7 +12,11 @@
 
 ?>
 
-<?php //include('login_assets/server.php'); ?>
+<?php 
+
+//include('login_assets/server.php'); 
+
+include('login_assets/stdserver.php'); ?>
 
 <?php include('loginwithfb/fb-init.php'); ?>
  
@@ -21,14 +24,19 @@
 
 if(!isset($_SESSION['access_token'])) {
 
-  if (isset($_SESSION['loginfbid'])) {
-    echo "sagar";
-      header('location:index.php');
+  if (!isset($_SESSION['stdlogin']))  {
+    //echo "sagar";
+    // header('location:index.php');
+    header('location:login.php');
+  }
+  // else {
+    // header('location:login.php');
+  // echo "Failed";
+  // print_r(scandir((session_save_path())));
+  // if (isset($_SESSION['stdlogin'])) {echo"active session";}
+  // else{echo"not session";}
+  // }
 }
-// else {   
-//  header('location:login.php');
-// }
-} 
  
 
 ?>

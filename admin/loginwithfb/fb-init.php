@@ -1,7 +1,7 @@
 <?php 
 
 // session start
-session_start();
+// session_start();
 
 require 'vendor/autoload.php';
 
@@ -11,11 +11,8 @@ $fb = new Facebook\Facebook([
 	'default_graph_version' => 'v6.0'
 ]);
 
-
-
 $helper = $fb->getRedirectLoginHelper();
 $login_url = $helper->getLoginUrl("http://localhost/Bloodcells/admin/");
-
 
 try{
 	$accessToken = $helper->getAccessToken();
@@ -29,7 +26,6 @@ try{
 } catch (Exception $exc) {
 	echo $exc->getTraceAsString();
 }
-
 
 /// get name email lname
 
@@ -111,18 +107,12 @@ if(isset($_SESSION['access_token'])){
 
 // if(isset($_SESSION['access_token'])){
 // 	if ($id==$sqlid&&$fname==$sqlfname&&$lname==$sqllname&&$email==$sqlmail&&$gender==$sqlgender) {
-
 // 		header('location:index.php');
-
 // 	} 
 // 		else
-
 // 	{
 // 		echo "You cant login here because you are not admin of Bloodcells.";
 // 	}
-
 // }
-
-
 
 ?>

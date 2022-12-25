@@ -74,7 +74,7 @@
                 <img src="../user/<?php echo $image; ?>" alt="<?php echo $caption; ?>" id="myImg<?php echo $id; ?>" class="myImgg rounded shadow-sm" width="500" height="auto">
             
               <!-- The Modal -->
-                <div id="myModal" class="modal" style="">
+                <div id="myModal" class="modal">
                   <span class="close">&times;</span>
                   <img class="modal-content" id="img02">
                   <div id="captionn"></div>
@@ -151,7 +151,7 @@
                 <img src="../user/<?php echo $row['image']; ?>" alt="<?php echo $row['caption']; ?>" id="myImg<?php echo $row['id']; ?>" class="myImgg rounded shadow-sm" width="250" height="auto">
             
               <!-- The Modal -->
-                <div id="myModal" class="modal" style="">
+                <div id="myModal" class="modal">
                   <span class="close">&times;</span>
                   <img class="modal-content" id="img02">
                   <div id="caption"></div>

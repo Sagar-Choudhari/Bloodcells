@@ -1,3 +1,14 @@
+<?php
+
+if (isset($_SESSION['stdlogin']))  {
+
+  header('location:index.php');
+  
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

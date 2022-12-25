@@ -2,6 +2,8 @@
 
 error_reporting(0);
 
+session_start();
+
 if(isset($_POST['loginadmin']))
 {
 
@@ -11,13 +13,27 @@ $pass = $_POST['password'];
 
 if ($loginid == "Sagar" && $pass == 123){
  
-$_SESSION['loginfbid'] = "login success";
+    $_SESSION['stdlogin'] = $loginid;
 
-header('location: ../index.php');
+    // if (isset($_SESSION['stdlogin'])) 
+    //     {
+    //         // echo"active session";
+    //         // echo "|".$loginid."|";
+    //         // echo "<br>";
+    //         // echo $pass;
+    //     }
+    // else {
+    //     // echo"not session";
+    // }
+
+    // echo"session activated";
+
+    header('location: ../index.php');
 
 }else{
 
-header('location: ../login.php');
+    // header('location: ../login.php');
+    echo"session not active";
 
 }
 }
