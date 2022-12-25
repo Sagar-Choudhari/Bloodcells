@@ -115,13 +115,13 @@ div section div .save{
  .save:after{
     content: '';
     display: block;
-    position: fixed;
+    position: absolute;
     width: 148px;
     height: 4px;
     background-color: #df2925;
-    transform: translate(338px,-19px);
-    -ms-transform: translate(338px,-19px);
-    -webkit-transform: translate(338px,-19px);
+    transform: translate(349px,-19px);
+    -ms-transform: translate(349px,-19px);
+    -webkit-transform: translate(349px,-19px);
 } 
 
 div section div .hero{
@@ -136,13 +136,13 @@ div section div .hero{
 .hero:after{
     content: '';
     display: block;
-    position: fixed;
+    position: absolute;
     width: 115px;
     height: 3px;
     background-color: #df2925;
-    transform: translate(6px,-15px);
-    -ms-transform: translate(6px,-15px);
-    -webkit-transform: translate(6px,-15px);
+    transform: translate(19px,-15px);
+    -ms-transform: translate(19px,-15px);
+    -webkit-transform: translate(19px,-15px);
 }
 
 div section div .save-hero{
